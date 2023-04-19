@@ -1,0 +1,73 @@
+{
+    "itineraires": [
+        {
+            "nom": "Autoroute Fidel Castro",
+            "description": "Port - KM36",
+            "sous_itineraires": [
+                {
+                    "nom": "Port-Madina",
+                    "terminus": [
+                        {
+                            "nom": "Port",
+                            "latitude": 9.515271,
+                            "longitude": -13.713991
+                        },
+                        {
+                            "nom": "Madina",
+                            "latitude": 9.537855296159776,
+                            "longitude": -13.667653644171246
+                        }
+                    ],
+                    "tricycle": false,
+                    "zones": [
+                        {
+                            "nom": "Port Autonome"
+                        },
+                        {
+                            "nom": "Cité Chemin de Fer"
+                        },
+                        {
+                            "nom": "Pont 8 Novembre"
+                        },
+                        {
+                            "nom": "Coléah"
+                        },
+                        {
+                            "nom": "Madina"
+                        }
+                    ]
+                },
+                {
+                    "nom": "Madina-Aeroport",
+                    "terminus": [
+                        {
+                            "nom": "Madina",
+                            "latitude": 18.4,
+                            "longitude": 10.5
+                        },
+                        {
+                            "nom": "Aeroport",
+                            "latitude": 18.4,
+                            "longitude": 10.5
+                        }
+                    ],
+                    "tricycle": true,
+                    "zones": [
+                        {
+                            "nom": "Madina"
+                        },
+                        {
+                            "nom": "Matam"
+                        },
+                        {
+                            "nom": "Bonfi"
+                        },
+                        {
+                            "nom": "Gbessia"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
